@@ -7,6 +7,7 @@ const CheckboxHook = ({ control, text, ...props }) => {
     name: props.name,
     defaultValue: false,
   });
+
   return (
     <label className="cursor-pointer custom-checkbox">
       <input

@@ -110,8 +110,8 @@ const RegisterHook = () => {
           name="username"
           placeholder="Enter your username"
           id="username"
-          control={control}
           type="text"
+          control={control}
         ></InputHook>
         {errors.username && (
           <p className="text-sm text-red-500">{errors.username.message}</p>
